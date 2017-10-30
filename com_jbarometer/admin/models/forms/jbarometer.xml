@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="stand"
+				type="text"
+				label="COM_JBAROMETER_JBAROMETERS_STAND"
+				description="COM_JBAROMETER_JBAROMETERS_STAND_DESC"
+				size="50"
+				class="inputbox"
+				default="0"
+				/>
+		<field
+				name="standdatum" type="calendar"
+				default="2017-05-15" label="COM_JBAROMETER_SELECT_DATE"
+				description="COM_JBAROMETER_JBAROMETERS_STAND_DESC"
+				class="input-small" required="true" filter="user_utc"
+				showtime="false" todaybutton="true" filltable="false" translateformat="true" />
+		<field
+				name="etappe1"
+				type="text"
+				label="COM_JBAROMETER_JBAROMETERS_ETAPPE1"
+				description="COM_JBAROMETER_JBAROMETERS_ETAPPE1_DESC"
+				size="50"
+				class="inputbox"
+				default="10000"
+				/>
+		<field
+				name="datum1" type="calendar"
+				default="2017-12-31" label="COM_JBAROMETER_SELECT_DATE"
+				description="COM_JBAROMETER_JBAROMETERS_DATUM1_DESC"
+				class="input-small" required="true" filter="user_utc"
+				showtime="false" todaybutton="true" filltable="false" translateformat="true" />
+		<field
+				name="zielsumme"
+				type="text"
+				label="COM_JBAROMETER_JBAROMETERS_ZIELSUMME"
+				description="COM_JBAROMETER_JBAROMETERS_ZIELSUMME_DESC"
+				size="50"
+				class="inputbox"
+				default="50000"
+				/>
+		<field
+				name="zieldatum" type="calendar"
+				default="2018-12-31" label="COM_JBAROMETER_SELECT_DATE"
+				description="COM_JBAROMETER_JBAROMETERS_ZIELDATUM_DESC"
+				class="input-small" required="true" filter="user_utc"
+				showtime="false" todaybutton="true" filltable="false" translateformat="true" />
+	</fieldset>
+</form>
