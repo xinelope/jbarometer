@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Barometer - Ausgabe</name>
+	<author>Gesine Frank</author>
+	<creationDate>July 2017</creationDate>
+	<copyright>Gesine Frank</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>master@mindenmix.de</authorEmail>
+	<authorURL>www.gesine-frank.de</authorURL>
+	<version>3.0.5</version>
+	<description>Ausgabe des Barometer für die Komponente Jbarometer</description>
+	<files>
+		<filename module="mod_jbarometer">mod_jbarometer.php</filename><filename>index.html</filename><filename>helper.php</filename><filename>mod_jbarometer.js</filename><filename>mod_jbarometer.xml</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+				</files>
+	<config>
+	</config>
+	</extension>
