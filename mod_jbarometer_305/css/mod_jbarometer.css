@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.jb-liste {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 70%;
+}
+.jb-liste p { width: 76%; margin: 1px 0;}
+.jb-liste p.jb-nbr {
+  padding-right: 1%;
+  text-align: right;
+  width: 20%;
+}
+.jb-grafik {
+  background-color: #bbb;
+	border: 1px solid #333;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 35px;
+  width: 70%;
+}
+.jb-grafik > div, .jb-legende > div {
+  display: inline-block;
+	height: 35px;
+}
+.verlauf {
+	border: 1px solid #333;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #76b729;
+	margin: -1px 0 0 -1px;
+	width: 0;
+	transition: width 1.5s ease-out;
+}
+.jb-grafik > div.jb-trenner {
+  width: 1px;
+  border-left: 1px solid #333;
+  display: block;
+  margin-top: -41px;
+  position: relative;
+}
+.jb-legende {
+	width: 70%;
+}
+.jb-legende > div.jb-trenner-txt {
+  display: block;
+  position: relative;
+  margin-top: -35px;
+}
+.jb-legende > div.ziel-txt {
+  position: relative;
+  text-align: right;
+  width: 100%;
+	margin-top: -35px;
+	display: block;
+}
+/**/
+.moduletableBaro .jb-legende, .moduletableBaro .jb-liste {
+  display: none;
+}
+.moduletableBaro { width: 100%; }
+.moduletable .weiter { display: none; }
+.moduletableBaro .weiter { display: block; }
+.defizit { display: none; }
